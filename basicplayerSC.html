@@ -1,0 +1,60 @@
+void setup(){
+<br>	
+size(740, 460);
+<br>	
+noStroke();
+<br>	
+frameRate(70);
+<br>
+}
+<br>
+<br>
+char north = 'w';
+<br>
+char east = 'd';
+<br>
+char south = 's';
+<br>
+char west = 'a';
+<br>
+<br>
+int px = 10;
+<br>
+int py = 15;
+<br>
+<br>
+void draw(){
+<br>	
+background(245,245,245);
+	<br>
+<br>
+	fill(237, 113, 104);
+<br>	
+rect(px,py,20,25);
+	<br>
+<br>
+	if (keyPressed == true && key == north){
+<br>	
+py = py - 2;
+<br>	
+}
+<br>	
+if (keyPressed == true && key == south){
+<br>	
+py = py + 2;
+<br>	
+}
+<br>	
+if (keyPressed == true && key == east){
+<br>	
+px = px + 2;
+<br>	
+}
+<br>	
+if (keyPressed == true && key == west){
+<br>
+px = px - 2;
+<br>	
+}
+<br>
+}

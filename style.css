@@ -31,9 +31,13 @@ h3 {
 }
 
 p {
-  font-size: 10;
+  font-size: 20;
 }
 
 p {
-  text-align: left;
+  text-align: center;
+}
+
+div {
+   object-position: center;
 }
