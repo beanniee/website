@@ -41,7 +41,12 @@ p {
 div {
    object-position: center;
 }
-
+h4 {
+  text-align: right;
+}
+h4 {
+  font-size: 20;
+}
 
 
 a:link {
