@@ -8,6 +8,7 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/processing.js/1.6.0/processing.min.js"></script>
 	<body>
         <h2>press any key <h2>
+					<h5>sorry, phone users-- this wont work<h5>
         <h2><a href = index.html>back</a></h1>
         <h2><a href = keypressedSC.html>code</a></h1>
             <script type="application/processing">
@@ -17,19 +18,19 @@
 
 void draw(){
 	background(255,255,255);
-	
+
 	fill(0,0,0);
 	textSize(80);
-	
+
 	if(keyPressed == true){
 		text("Key being held", 250,500);
 	}
 	if(keyPressed == false){
 		text("Key not being held", 175, 500);
 	}
-	
+
 	text(key, 500, 400);
-	
+
 }
 		</script>
 		<canvas> </canvas>
