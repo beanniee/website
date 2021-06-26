@@ -1,60 +1,42 @@
 body {
   background-color: black;
-}
-
-body {
   color: white;
+  font-family: "Times New Roman", Times, serif;
 }
 
 h1 {
   text-align: center;
-}
-
-h1 {
   font-size: 6vw
 }
 
 h2 {
   font-size: 3.5vw
-}
-
-h2 {
   text-align: center;
 }
 
 h3 {
   font-size: 3vw
-}
-
-h3 {
   text-align: center;
 }
 
 p {
   font-size: 1.5vw
-}
-
-p {
   text-align: left;
 }
 
 div {
    object-position: center;
 }
+
 h4 {
   text-align: right;
-}
-h4 {
   font-size: 2vw;
 }
+
 h5 {
   text-align: center;
-}
-h5 {
   font-size: 2vw;
 }
-
-
 
 a:link {
   color: grey
@@ -70,28 +52,4 @@ a:hover {
 
 a:active {
   color: white
-}
-
-h5 {
-  font-family: "Times New Roman", Times, serif;
-}
-
-h4 {
-  font-family: "Times New Roman", Times, serif;
-}
-
-h3 {
-  font-family: "Times New Roman", Times, serif;
-}
-
-h2 {
-  font-family: "Times New Roman", Times, serif;
-}
-
-h1 {
-  font-family: "Times New Roman", Times, serif;
-}
-
-p {
-  font-family: "Times New Roman", Times, serif;
 }
