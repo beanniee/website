@@ -1,10 +1,34 @@
 <title>website</title>
 <link rel="shortcut icon" type="image/jpg" href="favicon.jpg"/>
 <link rel="stylesheet" href="style.css"><link>
-<h4><a href = index_phone.html>phone mode<a><h4>
 
-<h4><a href = https://github.com/beanniee/website>github repo</a></h4>
+<div>
+<button onclick="topFunction()" id="up" title="Go to top">^</button>
+<script>
+var mybutton = document.getElementById("up");
 
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+</div>
+
+
+    <a id = top>
+<h4><a href = index_phone.html>phone mode<a> <a href = https://github.com/beanniee/website>github repo</a> <a href ="#games">games <a href ="#about">about me</a></h4>
+
+    
 <h1>hi<h1>
 
 <h2>how are you<h2>
@@ -12,24 +36,38 @@
 <h3>im something they would call<h3>
 <br>
 <h3>a person with no talent whatsoever<h3>
-
+    </a>
 <br>
 <br>
 <br>
 
+    <a id = games>
 <h3>games<h3>
+
 <h2>
     <img src = pcon.jpg
-         width = 70vw
-         height = 70vh/img>
+      width = 70vw
+      height = 70vh/>
 <a href = basicplayer.html>basic player controller<a>
 <h2>
-
+    </a>
+    
     <br>
-
+    
 <h2>
     <img src = icon.jpg
-         width = 70vw
-         height = 70vh/img>
+      width = 70vw
+      height = 70vh/>
 <a href = keypressed.html>keypressed adventure<a>
-</h2>
+    
+    <br>
+    <br>
+    <br>
+  
+    <a id = about>
+<h2>about me<h2>
+    <h3> hello there, my name is uhhh..... and i make things sometimes
+        <br>
+    im also genderfluid, in case you were wondering,, and my pronouns are they/them and she/her in case you.. wanted to know... you probably didnt tho</h3>
+    <img src = about.jpg alt = "ERROR"/>
+    </a>
