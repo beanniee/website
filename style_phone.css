@@ -42,7 +42,7 @@ div {
    object-position: center;
 }
 h4 {
-  text-align: right;
+  text-align: left;
 }
 h4 {
   font-size: 4vw;
@@ -95,3 +95,22 @@ h1 {
 p {
   font-family: "Times New Roman", Times, serif;
 }
+
+#up {
+  display: none;
+  position: fixed;
+  bottom: 22px;
+  right: 32px;
+  z-index: 99;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  padding: 17px;
+  border-radius: 6px;
+}
+
+#up:hover {
+  background-color: grey;
